@@ -1,10 +1,3 @@
-a = 'aaaaaaaa'
+a,b,c = map(int,input().split())
 
-# while(len(a) != 3):
-#     a = a.lstrip()
-#     print(a)
-
-a = a[len(a)-3:]
-
-print(len(a))
-print(a)
+print(a+b+c)
