@@ -1,6 +1,3 @@
-from curses import pair_content
-
-
 n = int(input())
 
 # 1. 5의 배수 2. 5와3의 조합으로 가능 3.조합으로도 안될 때 
